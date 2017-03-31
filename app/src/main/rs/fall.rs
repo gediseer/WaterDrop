@@ -16,7 +16,7 @@
 #pragma version(1)
 
 //编译指示声明（#pragma rs java_package_name(package.name)），它声明了该Renderscript反射所对应的*.java类名
-#pragma rs java_package_name(com.harlan.waterscreen)
+#pragma rs java_package_name(cn.dream.mao.dropwaterwallpaper)
 
 #include "rs_graphics.rsh"
 
@@ -84,7 +84,7 @@ typedef struct Drop {
     float x;
     float y;
 } Drop_t;
-static Drop_t gDrops[10];
+static Drop_t gDrops[10];//上面定义的结构体数组
 static int gMaxDrops;
 
 typedef struct Leaves {

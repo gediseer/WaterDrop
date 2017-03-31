@@ -1,17 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
+    compileSdkVersion 17
     buildToolsVersion '24.0.1'
 
     defaultConfig {
         applicationId "cn.dream.mao.dropwaterwallpaper"
-
+        minSdkVersion 11
         versionCode 1
         versionName "1.0"
 
-        renderscriptTargetApi 18
-        renderscriptSupportModeEnabled true
+
     }
     buildTypes {
         release {

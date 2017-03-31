@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DropWaterWallPaper.iml" filepath="$PROJECT_DIR$/DropWaterWallPaper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WaterDrop.iml" filepath="$PROJECT_DIR$/WaterDrop.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
